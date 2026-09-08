@@ -1,0 +1,20 @@
+# CRITICAL: Prevent uploading personal VPN configuration
+*.conf
+wg0.conf
+*wireguard*
+
+# OS generated files (macOS and Windows)
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Temporary files and tool backups
+*.tmp
+*.bak
+*.swp
+*~.nib
